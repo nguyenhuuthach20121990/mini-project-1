@@ -1,0 +1,103 @@
+/* Phần nội dung chính--> */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background-color: var(--color-backround);
+  color: white;
+}
+.header-nav-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-nav-ul a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.header-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Phần nội dung sản phẩm */
+.main-content {
+  text-align: center;
+  padding: 25px;
+}
+.main-content h4 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.main-content p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+/* Phần giới thiệu */
+.section-article-header h4 {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.section-article-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  box-sizing: border-box;
+}
+.section-article {
+  width: 30%;
+  border: solid 0.1mm;
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.section-article-icon {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.section-article-icon-logo {
+  margin: 5px;
+}
+.section-article-icon-logo img {
+  mix-blend-mode: multiply; /* Chỉ hiệu quả khi nền trang sáng và ảnh có nền trắng đặc */
+  height: 250px;
+  width: auto;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-inline: auto; /* Căn giữa ảnh theo chiều ngang */
+}
+.section-article-icon-logo h6 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.section-article-icon-button {
+  margin-top: auto; /* Đẩy nút xuống sát cuối thẻ */
+  align-self: center; /* Căn giữa theo chiều ngang (bỏ dòng này nếu muốn sát trái) */
+  width: 30%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+/* Phần cuối */
+.footer {
+  background-color: var(--color-backround);
+  height: 50px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
