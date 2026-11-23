@@ -1,0 +1,154 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background-color: var(--color-backround);
+  color: white;
+}
+.header-nav-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-nav-ul a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+/* Phần nội dung sản phẩm */
+.main-content {
+  text-align: center;
+  padding: 15px;
+  background-color: orange;
+  color: white;
+}
+.main-content h4 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.main-content p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+.main-content a {
+  color: white;
+  margin: 10px;
+}
+.main-content-gioi-thieu {
+  text-decoration: none;
+}
+
+.section {
+  padding: 15px;
+}
+.section-article-aside-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  font-size: 25px;
+}
+
+.section-article-main {
+  display: flex;
+  padding: 1px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-article-aside-product-img {
+  width: 100%;
+  height: auto;
+}
+
+.section-article-aside-product {
+  border: solid 0.1mm;
+  border-color: silver;
+  padding: 15px;
+  margin: 10px;
+}
+.section-article-aside {
+  width: 33%;
+  position: relative;
+}
+.section-article-aside-product-name-phone {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.section-article-aside-product-name-price {
+  display: flex;
+  justify-content: center;
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-button-product {
+  display: block;
+  margin: 1px auto;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.section-article-aside-product-new {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: orange;
+  padding: 15px;
+  border-radius: 90%;
+  height: 20%;
+  width: 20%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-voucher {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: dashed;
+  border-color: salmon;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70%;
+  background-color: lavenderblush;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-voucher h3,
+h1 {
+  display: flex;
+  justify-content: center;
+  line-height: 1.8;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.section-voucher h1 {
+  color: salmon;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.footer {
+  background-color: var(--color-backround);
+  height: 50px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
