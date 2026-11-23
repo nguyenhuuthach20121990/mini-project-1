@@ -1,0 +1,120 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background-color: var(--color-backround);
+  color: white;
+}
+.header-nav-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-nav-ul a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.main-content {
+  text-align: center;
+  padding: 15px;
+  background-color: orange;
+  color: white;
+}
+.main-content h4 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.main-content p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+.main-content a {
+  color: white;
+  margin: 10px;
+}
+.main-content-gioi-thieu {
+  text-decoration: none;
+}
+
+.section {
+  padding: 15px;
+}
+.section-article-aside-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.section-article-main {
+  display: flex;
+  padding: 1px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-article-aside-product-img {
+  width: 100%;
+  height: auto;
+}
+
+.section-article-aside-product {
+  border: solid 0.1mm;
+  border-color: silver;
+  padding: 15px;
+  margin: 10px;
+}
+.section-article-aside {
+  width: 33%;
+}
+.section-article-aside-product-name-phone {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.section-article-aside-product-name-price {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-button-product {
+  display: block;
+  margin: 1px auto;
+  width: 100px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-backround);
+  padding: 15px;
+  color: white;
+}
+
+.section-article-aside-new {
+  position: relative;
+}
+
+.section-article-aside-product-new {
+  position: absolute;
+  top: 0;
+  background-color: green;
+  padding: 0px 7px;
+  color: white;
+  margin: 17px;
+}
