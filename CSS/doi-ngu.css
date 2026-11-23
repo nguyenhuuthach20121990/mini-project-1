@@ -1,0 +1,104 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background-color: var(--color-backround);
+  color: white;
+}
+.header-nav-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-nav-ul a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+/* Phần nội dung sản phẩm */
+.main-content {
+  text-align: center;
+  padding: 15px;
+  background-color: orange;
+  color: white;
+}
+.main-content h4 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.main-content p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+.main-content a {
+  color: white;
+  margin: 10px;
+}
+.main-content-gioi-thieu {
+  text-decoration: none;
+}
+
+.section {
+  padding: 15px;
+}
+.section-article-aside-content {
+  display: block;
+  justify-items: center;
+  padding: 12px;
+  font-size: 25px;
+}
+.section-article-aside-content p {
+  font-size: 15px;
+}
+
+.section-article-main {
+  display: flex;
+  padding: 1px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-article-aside-product-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: solid 1.5mm;
+  border-color: orange;
+}
+
+.section-article-aside-product {
+  padding: 15px;
+  margin: 10px;
+}
+.section-article-aside {
+  width: 25%;
+}
+.section-article-aside-product-name-phone {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.section-article-aside-product-name-price {
+  display: flex;
+  justify-content: center;
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: var(--color-backround);
+  height: 50px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
