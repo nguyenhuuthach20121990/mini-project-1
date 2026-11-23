@@ -1,0 +1,82 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background-color: var(--color-backround);
+  color: white;
+}
+.header-nav-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-nav-ul a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.main-content {
+  text-align: center;
+  padding: 15px;
+  background-color: orange;
+  color: white;
+}
+.main-content h4 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.main-content p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+.main-content a {
+  color: white;
+  margin: 10px;
+}
+.main-content-gioi-thieu {
+  text-decoration: none;
+}
+
+.section {
+  margin: 20px;
+}
+.section-article-aside {
+  border-color: silver;
+  display: flex;
+}
+
+.section-article-aside {
+  height: 200px;
+  border-bottom: solid 0.1mm;
+}
+.section-article-aside-product-img {
+  display: block;
+  height: 100%;
+  padding: 10px;
+}
+.section-article-aside-product-name {
+  padding-top: 10px;
+  line-height: 2;
+  letter-spacing: 0.8px;
+}
+.section-article-aside-product-name a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.section-article-aside-product-name h6 {
+  color: lightgray;
+  font-size: 2-px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-backround);
+  padding: 15px;
+  color: white;
+}
