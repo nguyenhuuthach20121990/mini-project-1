@@ -1,0 +1,115 @@
+/* Phần nội dung chính--> */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background-color: var(--color-backround);
+  color: white;
+}
+.header-nav-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-nav-ul a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+/* Phần nội dung sản phẩm */
+.main-content {
+  text-align: center;
+  padding: 15px;
+  background-color: orange;
+  color: white;
+}
+.main-content h4 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.main-content p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+.main-content a {
+  color: white;
+  margin: 10px;
+}
+.main-content-gioi-thieu {
+  text-decoration: none;
+}
+/* Phần giới thiệu sản phẩm */
+.section {
+  display: flex;
+  height: 100%;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-article-content-main h6 {
+  margin: 10px;
+  font-size: 20px;
+}
+.section-table {
+  border-collapse: collapse;
+  margin: 10px;
+}
+.section-table th,
+.section-table td {
+  border: solid;
+  text-align: center;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+.section-article-header {
+  padding: 10px;
+  height: 100%;
+  width: auto;
+}
+
+.section-form {
+  margin-top: 25px;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-form-head {
+  display: flex;
+  justify-content: center;
+}
+.section-form-input-box,
+.section-form-button {
+  margin: 5px;
+}
+.section-form-input-box p {
+  margin-bottom: 5px;
+}
+.section-form-box {
+  width: 100%;
+  height: 35px;
+}
+.section-form-box-content {
+  width: 100%;
+  height: 100px;
+}
+.section-form-button button {
+  padding: 5px;
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.footer {
+  background-color: var(--color-backround);
+  height: 50px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
