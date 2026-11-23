@@ -1,0 +1,103 @@
+/* Phần nội dung chính--> */
+body {
+  background-color: darkgrey;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background-color: var(--color-backround);
+  color: white;
+}
+.header-nav-ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-nav-ul a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+/* Phần nội dung sản phẩm */
+.main-content {
+  text-align: center;
+  padding: 15px;
+  background-color: orange;
+  color: white;
+}
+.main-content h4 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.main-content p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+.main-content a {
+  color: white;
+  margin: 10px;
+}
+.main-content-gioi-thieu {
+  text-decoration: none;
+}
+/* Phần giới thiệu sản phẩm */
+.section {
+  display: flex;
+  height: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: white;
+}
+.section-article {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-article-content-main h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.section-article-content-main p {
+  line-height: 2;
+}
+.footer {
+  background-color: var(--color-backround);
+  height: 50px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Phần giá trị cốt lõi */
+.section-article-gia-tri-cot-loi-h4 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 25px;
+  text-align: center;
+}
+.section-article-gia-tri-cot-loi-content {
+  display: flex;
+  border-top: none;
+}
+.section-article-content {
+  margin: 5px;
+  margin-top: -5px;
+  border: solid 0.1mm;
+  background-color: white;
+  font-size: 15px;
+  line-height: 2;
+  text-align: center;
+  border: none;
+}
+.section-article-content h6 {
+  text-align: center;
+  font-size: 20px;
+  border-top: solid orange 2.5mm;
+  color: orange;
+}
